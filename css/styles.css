@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
+}
