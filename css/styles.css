@@ -1,13 +1,151 @@
+/* Main */
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Arial;
-  background-color: #fff;
 }
 
 .container {
   max-width: 800px;
   margin: 0px auto;
   text-align: center;
+  padding-top: 160px;
+}
+
+h2 {
+    font-family: baloo, arial;
+}
+
+/* Header */
+header {
+    background: #1b1b1b;
+    color: #dedede;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+}
+
+header nav {
+    margin-left: 15%;
+    font-size: 25px;
+    font-family: futura, arial;
+}
+
+header a {
+    color: #dedede;
+    text-decoration: none;
+    transition: .3s;
+}
+
+header a:hover {
+    color: #efdecd;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 75px;
+}
+
+/* Body */
+.sub-header {
+    margin: 20px 0px;
+    padding: 15px 0px;
+    font-size: 20px;
+    font-family: baloo, arial;
+    text-decoration: underline;
+    color: #1b1b1b;
+}
+
+/* About Body */
+
+.bryan-image-left,
+.tom-image-left {
+    float: left;
+    margin: -48px 20px;
+    border-radius: 500px 500px;
+    box-shadow: 0px 0px 0px 1px #707070;
+}
+
+.jabriel-image-right {
+    float: right;
+    margin: -54px 20px;
+    border-radius: 500px 500px;
+    box-shadow: 0px 0px 0px 1px #707070;
+}
+
+.kyle-image-right {
+    float: right;
+    margin: -20px 20px;
+    border-radius: 500px 500px;
+    box-shadow: 0px 0px 0px 1px #707070;
+}
+
+.float-left-content {
+    background-color: #efdecd;
+    padding: 60px 25px;
+    border-radius: 25px;
+    font-family: arial;
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px #707070;
+    color: #1b1b1b;
+    margin: 20px -100px;
+}
+
+.float-right-content {
+    background-color: #efdecd;
+    padding: 60px 25px;
+    border-radius: 25px;
+    font-family: arial;
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px #707070;
+    color: #1b1b1b;
+    margin: 20px 100px;
+}
+
+.float-left-content h2,
+.float-right-content h2 {
+    margin: 10px;
+}
+
+/* Footer */
+
+footer {
+    background: #1b1b1b;
+    color: #dedede;
+    padding: 20px;
+    font-family: futura, arial;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+footer a {
+    color: #dedede;
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: #efdecd;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.footer-right {
+    padding: 0px 30px;
+}
+
+.footer-left {
+    font-size: 15px;
 }
