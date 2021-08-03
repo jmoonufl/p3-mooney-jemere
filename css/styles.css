@@ -51,13 +51,88 @@ header li {
     margin: 0px 75px;
 }
 
-/* Body */
+/* Universal Subheader */
 .sub-header {
     margin: 20px 0px;
     padding: 15px 0px;
     font-size: 20px;
     font-family: baloo, arial;
     text-decoration: underline;
+    color: #1b1b1b;
+}
+
+/* Homepage Subheader */
+.home-sub-header {
+    display: inline-flex;
+    padding: 20px 0px;
+}
+
+.home-sub-header h1 {
+    font-family: baloo, arial;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 35px;
+}
+
+.home-image {
+    border-radius: 10px;
+}
+
+/* Home Body */
+
+.quote {
+    background: #1b1b1b;
+    color: #dedede;
+    padding: 10px;
+    width: 100%;
+    font-family: futura, arial;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.align-display .single-column {
+    width: 24%;
+    display: inline-block;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #1b1b1b;
+    background: #efdecd;
+    text-align: center;
+}
+
+.single-column p {
+    font-family: arial;
+}
+
+.single-column a {
+    color: #1b1b1b;
+    text-decoration: underline;
+    line-height: 3.3;
+}
+
+.double-column {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 10px 0px;
+    text-align: center;
+    background: #efdecd;
+}
+
+.double-column h3 {
+    line-height: 2;
+    font-family: futura, arial;
+}
+
+.double-column p {
+    font-family: arial;
+}
+
+.double-column a {
+    text-decoration: none;
     color: #1b1b1b;
 }
 
@@ -110,6 +185,24 @@ header li {
 .float-left-content h2,
 .float-right-content h2 {
     margin: 10px;
+}
+
+/* Shop Body */
+
+.align-display-shop .single-column-shop {
+    width: 40%;
+    display: inline-block;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border: 1px solid #1b1b1b;
+    background: #efdecd;
+    text-align: center;
+    margin: 10px 35px;
+}
+
+.single-column-shop p {
+    font-family: arial;
+    margin: 2px;
 }
 
 /* Footer */
