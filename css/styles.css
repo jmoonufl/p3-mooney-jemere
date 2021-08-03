@@ -205,6 +205,52 @@ header li {
     margin: 2px;
 }
 
+/* Training Body */
+
+.motto {
+    background: #1b1b1b;
+    color: #efdecd;
+    padding: 10px;
+    width: 100%;
+    font-family: futura, arial;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 3;
+    text-align: left;
+}
+
+.align-display-training .single-column-training {
+    width: 40%;
+    display: inline-block;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #1b1b1b;
+    background: #efdecd;
+    text-align: center;
+    margin: 20px 35px;
+}
+
+.single-column-training p {
+    font-family: arial;
+    margin: 2px;
+}
+
+.button {
+    background: #707070;
+    color: #1b1b1b;
+    border-radius: 5px;
+    padding: 8px 5px;
+    line-height: 2;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: limegreen;
+}
+
 /* Footer */
 
 footer {
